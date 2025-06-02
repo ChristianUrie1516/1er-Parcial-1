@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+// Christian Uriel Gonzalez flores Matricula: 362423170
 int main() {
 	string caracte[5];
 	string estado = "s0";

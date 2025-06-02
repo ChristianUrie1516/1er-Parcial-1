@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-// Christian Uriel Gonzalez Flores 362423170
+// Christian Uriel Gonzalez Flores Matricula: 362423170
 using namespace std;
 
 int main() {
@@ -20,11 +20,11 @@ int main() {
 	// Convertir el interes mensual a decimal
 	interes_mensual /= 100;
 	
-	// Mostrar el capital al final de cada año
+	// Mostrar el capital al final de cada aÃ±o
 	for (int i = 1; i <= meses_invertir; i++) {
-		// Calcular el capital al final del año i usando la fÃ3rmula del interÃ©s compuesto 
+		// Calcular el capital al final del aÃ±o i usando la fÃƒ3rmula del interÃƒÂ©s compuesto 
 		double capital = cantidad_invertir * pow(1 + interes_mensual, 12 * i);
-		cout << "Capital al final del año " << i << ": " << capital << endl;
+		cout << "Capital al final del aÃ±o " << i << ": " << capital << endl;
 	}
 	
 	return 0;

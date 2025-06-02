@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // Christian Uriel Gonzalez Flores Matricula 362423170
 usin namespace std;
 class Animal
 {
@@ -13,7 +13,7 @@ class Animal
 		cout << "Especie: " << especie << endl;
 		cout << "Tamano: " << tamano << "Metros" << endl;
 		cout << "Peso: " << peso << "kg" << endl;
-		cout << "Edad: " << edad << "años" << endl;
+		cout << "Edad: " << edad << "aÃ±os" << endl;
 	}
 	void actualizarEdad(int nuevaEdad) {
 		edad = nuevaEdad;
